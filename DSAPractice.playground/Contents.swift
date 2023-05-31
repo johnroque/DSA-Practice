@@ -24,10 +24,19 @@ import DSAPractice_Sources
 //let solution_maxSubArray = Solution_maxSubArray()
 //solution_maxSubArray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
 
-// 3.
-let solution_twoSum = Solution_twoSum()
+//// 3.
+//let solution_twoSum = Solution_twoSum()
+//
+//solution_twoSum.twoSumBrute([2,7,11,15], 9)
+//solution_twoSum.twoSumComple([3,2,4], 6)
 
-solution_twoSum.twoSumBrute([2,7,11,15], 9)
-solution_twoSum.twoSumComple([3,2,4], 6)
+// 4.
+let solution_merge = Solution_merge()
+var test = [1,2,3,0,0,0]
+solution_merge.mergeLoop(&test, 3, [2,5,6], 3)
+print(test)
+test = [1,2,3,0,0,0]
+solution_merge.merge(&test, 3, [2,5,6], 3)
+print(test)
 
 // End
