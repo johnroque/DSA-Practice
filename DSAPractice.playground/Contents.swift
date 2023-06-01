@@ -2,7 +2,7 @@ import UIKit
 import DSAPractice_Sources
 
 //// Data Structure - Array
-//// 1.
+////  Day 1
 //let solutionDuplicate = SolutionContainsDuplicate()
 //let input1 = [1,2,3,1]
 //let input2 = [1,2,3,4]
@@ -20,23 +20,28 @@ import DSAPractice_Sources
 //solutionDuplicate.containsDuplicateBrute(input2)
 //solutionDuplicate.containsDuplicateBrute(input3)
 
-//// 2.
+////  Day 1
 //let solution_maxSubArray = Solution_maxSubArray()
 //solution_maxSubArray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
 
-//// 3.
+////  Day 2
 //let solution_twoSum = Solution_twoSum()
 //
 //solution_twoSum.twoSumBrute([2,7,11,15], 9)
 //solution_twoSum.twoSumComple([3,2,4], 6)
 
-// 4.
-let solution_merge = Solution_merge()
-var test = [1,2,3,0,0,0]
-solution_merge.mergeLoop(&test, 3, [2,5,6], 3)
-print(test)
-test = [1,2,3,0,0,0]
-solution_merge.merge(&test, 3, [2,5,6], 3)
-print(test)
+//// Day 2
+//let solution_merge = Solution_merge()
+//var test = [1,2,3,0,0,0]
+//solution_merge.mergeLoop(&test, 3, [2,5,6], 3)
+//print(test)
+//test = [1,2,3,0,0,0]
+//solution_merge.merge(&test, 3, [2,5,6], 3)
+//print(test)
+
+// Day 3
+let solution_intersect = Solution_intersect()
+solution_intersect.intersectDict([1,2,2,1], [2,2])
+solution_intersect.intersectDict([4,9,5], [9,4,9,8,4])
 
 // End
