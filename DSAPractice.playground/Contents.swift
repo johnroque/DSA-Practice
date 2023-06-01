@@ -40,8 +40,13 @@ import DSAPractice_Sources
 //print(test)
 
 // Day 3
-let solution_intersect = Solution_intersect()
-solution_intersect.intersectDict([1,2,2,1], [2,2])
-solution_intersect.intersectDict([4,9,5], [9,4,9,8,4])
+//let solution_intersect = Solution_intersect()
+//solution_intersect.intersectDict([1,2,2,1], [2,2])
+//solution_intersect.intersectDict([4,9,5], [9,4,9,8,4])
+
+// Day 3
+let solution_maxProfit = Solution_maxProfit()
+solution_maxProfit.maxProfit([7,1,5,3,6,4])
+solution_maxProfit.maxProfit_twoPointer([7,1,5,3,6,4])
 
 // End
