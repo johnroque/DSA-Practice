@@ -40,19 +40,29 @@ import DSAPractice_Sources
 //print(test)
 
 // Day 3
+// 1
 //let solution_intersect = Solution_intersect()
 //solution_intersect.intersectDict([1,2,2,1], [2,2])
 //solution_intersect.intersectDict([4,9,5], [9,4,9,8,4])
 
-// Day 3
+// 2
 //let solution_maxProfit = Solution_maxProfit()
 //solution_maxProfit.maxProfit([7,1,5,3,6,4])
 //solution_maxProfit.maxProfit_twoPointer([7,1,5,3,6,4])
 
 // Day 4
-let solution = Solution_matrixReshape()
-solution.matrixReshape([[1,2],[3,4]], 1, 4)
-solution.matrixReshape([[1,2],[3,4]], 2, 4)
+
+// 1
+//let solution = Solution_matrixReshape()
+//solution.matrixReshape([[1,2],[3,4]], 1, 4)
+//solution.matrixReshape([[1,2],[3,4]], 2, 4)
+
+// 2
+let solution = Solution_pascalTriangle()
+solution.generate(5)
+solution.generate(1)
+
+// 3
 
 // End
 
