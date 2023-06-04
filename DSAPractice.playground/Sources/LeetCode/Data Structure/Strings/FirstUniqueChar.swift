@@ -3,6 +3,10 @@ import Foundation
 public class Solution_firstUniqChar {
     public init() {}
     
+    /*
+     Time: 0(n) reduced since were iterating same array 2 times
+     Space: 0(n) reduced since were creating 2 ds on same input
+     */
     public func firstUniqCharDict(_ s: String) -> Int {
         let chars = Array(s)
         var charsDict: [Character: Int] = [:]

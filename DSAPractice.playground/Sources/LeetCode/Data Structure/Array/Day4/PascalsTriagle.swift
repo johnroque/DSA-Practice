@@ -3,6 +3,10 @@ import Foundation
 public class Solution_pascalTriangle {
     public init() {}
     
+    /*
+     Time: O(n * n) where n is numRows
+     Space: 0(n * n) where n is numRows
+     */
     public func generate(_ numRows: Int) -> [[Int]] {
         var result: [[Int]] = []
 

@@ -4,6 +4,10 @@ public class Solution_isAnagram {
     
     public init() {}
     
+    /*
+     Time: 0(n + m) were iterating 2 arrays
+     Space: 0(n) were creating 1 ds base on s
+     */
     public func isAnagramDict(_ s: String, _ t: String) -> Bool {
         var sDict: [Character: Int] = [:]
 

@@ -3,6 +3,10 @@ import Foundation
 public class Solution_searchMatrix {
     public init() {}
     
+    /*
+     Time: 0(log n) since where halfing every iterate
+     Space: 0(1) no data structure created
+    */
     public func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
         guard !matrix.isEmpty else { return false }
 

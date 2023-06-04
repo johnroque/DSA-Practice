@@ -3,6 +3,9 @@ import Foundation
 public class Solution_isValidSudoku {
     public init() {}
     
+    /*
+     Time: 
+     */
     public func isValidSudoku(_ board: [[Character]]) -> Bool {
         for i in 0..<9 {
             var set = Set<Character>()
