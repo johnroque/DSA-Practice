@@ -49,61 +49,12 @@ import DSAPractice_Sources
 //solution_maxProfit.maxProfit([7,1,5,3,6,4])
 //solution_maxProfit.maxProfit_twoPointer([7,1,5,3,6,4])
 
+// Day 4
+let solution = Solution_matrixReshape()
+solution.matrixReshape([[1,2],[3,4]], 1, 4)
+solution.matrixReshape([[1,2],[3,4]], 2, 4)
+
 // End
-
-//class Solution {
-//    func isValidSudoku(_ board: [[Character]]) -> Bool {
-//        for i in 0..<9 {
-//            var set = Set<Character>()
-//            for j in 0..<9 {
-//                if board[i][j] != ".", set.contains(board[i][j]) {
-//                    return false
-//                }
-//                set.insert(board[i][j])
-//            }
-//        }
-//
-//        for i in 0..<9 {
-//            var set = Set<Character>()
-//            for j in 0..<9 {
-//                if board[j][i] != ".", set.contains(board[j][i]) {
-//                    return false
-//                }
-//                set.insert(board[j][i])
-//            }
-//        }
-//
-//        for k in 0..<9 {
-//            print("K: \(k)")
-//            var set = Set<Character>()
-//            for i in k / 3 * 3 ..< k / 3 * 3 + 3 {
-//                print("row: \(i)")
-//                for j in k % 3 * 3 ..< k % 3 * 3 + 3 {
-//                    print("column: \(j)")
-//                    if board[i][j] != ".", set.contains(board[i][j]) {
-//                        return false
-//                    }
-//                    set.insert(board[i][j])
-//                }
-//            }
-//        }
-//
-//        return true
-//    }
-//}
-//
-//let solution = Solution()
-//solution.isValidSudoku([["5","3",".",".","7",".",".",".","."]
-//                        ,["6",".",".","1","9","5",".",".","."]
-//                        ,[".","9","8",".",".",".",".","6","."]
-//                        ,["8",".",".",".","6",".",".",".","3"]
-//                        ,["4",".",".","8",".","3",".",".","1"]
-//                        ,["7",".",".",".","2",".",".",".","6"]
-//                        ,[".","6",".",".",".",".","2","8","."]
-//                        ,[".",".",".","4","1","9",".",".","5"]
-//                        ,[".",".",".",".","8",".",".","7","9"]])
-
-// Start Strings
 
 // 1.
 //let solution = Solution_firstUniqChar()
@@ -112,10 +63,10 @@ import DSAPractice_Sources
 //solution.firstUniqCharDict("aabb")
 
 // 2.
-let solution = Solution_ransomNote()
-solution.canConstruct("a", "b")
-solution.canConstruct("aa", "ab")
-solution.canConstruct("aa", "aab")
+//let solution = Solution_ransomNote()
+//solution.canConstruct("a", "b")
+//solution.canConstruct("aa", "ab")
+//solution.canConstruct("aa", "aab")
 
 
 // 3.
