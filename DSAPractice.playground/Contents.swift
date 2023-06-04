@@ -104,8 +104,17 @@ import DSAPractice_Sources
 //                        ,[".",".",".",".","8",".",".","7","9"]])
 
 // Start Strings
-let solution = Solution_isAnagram()
-solution.isAnagramDict("anagram", "nagaram")
-solution.isAnagramDict("rat", "car")
+
+// 1.
+let solution = Solution_firstUniqChar()
+solution.firstUniqCharDict("leetcode")
+solution.firstUniqCharDict("loveleetcode")
+solution.firstUniqCharDict("aabb")
+
+
+// 3.
+//let solution = Solution_isAnagram()
+//solution.isAnagramDict("anagram", "nagaram")
+//solution.isAnagramDict("rat", "car")
 
 // End Strings
