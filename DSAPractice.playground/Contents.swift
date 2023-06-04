@@ -106,10 +106,16 @@ import DSAPractice_Sources
 // Start Strings
 
 // 1.
-let solution = Solution_firstUniqChar()
-solution.firstUniqCharDict("leetcode")
-solution.firstUniqCharDict("loveleetcode")
-solution.firstUniqCharDict("aabb")
+//let solution = Solution_firstUniqChar()
+//solution.firstUniqCharDict("leetcode")
+//solution.firstUniqCharDict("loveleetcode")
+//solution.firstUniqCharDict("aabb")
+
+// 2.
+let solution = Solution_ransomNote()
+solution.canConstruct("a", "b")
+solution.canConstruct("aa", "ab")
+solution.canConstruct("aa", "aab")
 
 
 // 3.
