@@ -113,13 +113,28 @@ import DSAPractice_Sources
 
 // Linked List
 // 1
-let solution = Solution_hasCycle()
-let fNode = ListNode(3)
-let sNode = ListNode(2)
-let tNode = ListNode(0)
-let node4 = ListNode(-4)
-fNode.next = sNode
-sNode.next = tNode
-tNode.next = node4
-node4.next = sNode
-solution.hasCycle(fNode)
+//let solution = Solution_hasCycle()
+//let fNode = ListNode(3)
+//let sNode = ListNode(2)
+//let tNode = ListNode(0)
+//let node4 = ListNode(-4)
+//fNode.next = sNode
+//sNode.next = tNode
+//tNode.next = node4
+//node4.next = sNode
+//solution.hasCycle(fNode)
+
+// 2
+let solution = Solution_mergeTwoLists()
+let node11 = ListNode(1)
+let node12 = ListNode(2)
+let node13 = ListNode(4)
+node11.next = node12
+node12.next = node13
+
+let node21 = ListNode(1)
+let node22 = ListNode(3)
+let node23 = ListNode(4)
+node21.next = node22
+node22.next = node23
+solution.mergeTwoLists(node11, node21)
