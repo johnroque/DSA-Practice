@@ -13,7 +13,10 @@ public class ListNode {
 public class Solution_hasCycle {
     
     public init() {}
-    
+    /*
+     Time: O(n) where n is length of head
+     Space: O(1) no new ds created
+     */
     public func hasCycle(_ head: ListNode?) -> Bool {
         var slow = head
         var fast = head?.next

@@ -3,6 +3,10 @@ import Foundation
 public class Solution_removeElements {
     public init() {}
     
+    /*
+     Time: O(n) where n is length of head
+     Space: O(1) no new ds created
+     */
     public func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
         var head = head
        var currentNode = head
