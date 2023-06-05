@@ -85,9 +85,9 @@ import DSAPractice_Sources
 //                        ,[".",".",".",".","8",".",".","7","9"]])
 
 // 2
-let solution = Solution_searchMatrix()
-solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3)
-solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
+//let solution = Solution_searchMatrix()
+//solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3)
+//solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
 
 // End
 
@@ -110,3 +110,16 @@ solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
 //solution.isAnagramDict("rat", "car")
 
 // End Strings
+
+// Linked List
+// 1
+let solution = Solution_hasCycle()
+let fNode = ListNode(3)
+let sNode = ListNode(2)
+let tNode = ListNode(0)
+let node4 = ListNode(-4)
+fNode.next = sNode
+sNode.next = tNode
+tNode.next = node4
+node4.next = sNode
+solution.hasCycle(fNode)
