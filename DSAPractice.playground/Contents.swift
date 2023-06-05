@@ -125,16 +125,25 @@ import DSAPractice_Sources
 //solution.hasCycle(fNode)
 
 // 2
-let solution = Solution_mergeTwoLists()
+//let solution = Solution_mergeTwoLists()
+//let node11 = ListNode(1)
+//let node12 = ListNode(2)
+//let node13 = ListNode(4)
+//node11.next = node12
+//node12.next = node13
+//
+//let node21 = ListNode(1)
+//let node22 = ListNode(3)
+//let node23 = ListNode(4)
+//node21.next = node22
+//node22.next = node23
+//solution.mergeTwoLists(node11, node21)
+
+// 3
+let solution = Solution_removeElements()
 let node11 = ListNode(1)
 let node12 = ListNode(2)
 let node13 = ListNode(4)
 node11.next = node12
 node12.next = node13
-
-let node21 = ListNode(1)
-let node22 = ListNode(3)
-let node23 = ListNode(4)
-node21.next = node22
-node22.next = node23
-solution.mergeTwoLists(node11, node21)
+solution.removeElements(node11, 2)
