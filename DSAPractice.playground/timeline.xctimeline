@@ -3,7 +3,11 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/johnroquejorilo/Desktop/DSA/DSAPractice.playground#CharacterRangeLen=34&amp;CharacterRangeLoc=4431&amp;EndingColumnNumber=0&amp;EndingLineNumber=149&amp;StartingColumnNumber=1&amp;StartingLineNumber=148&amp;Timestamp=707674001.1020451"
+         documentLocation = "file:///Users/johnroquejorilo/Desktop/DSA/DSAPractice.playground#CharacterRangeLen=224&amp;CharacterRangeLoc=4445&amp;EndingColumnNumber=0&amp;EndingLineNumber=158&amp;StartingColumnNumber=3&amp;StartingLineNumber=148&amp;Timestamp=707717509.438513"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/johnroquejorilo/Desktop/DSA/DSAPractice.playground#CharacterRangeLen=28&amp;CharacterRangeLoc=4641&amp;EndingColumnNumber=0&amp;EndingLineNumber=158&amp;StartingColumnNumber=1&amp;StartingLineNumber=157&amp;Timestamp=707717509.438676"
          selectedRepresentationIndex = "0">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>

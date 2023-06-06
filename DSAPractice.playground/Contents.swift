@@ -140,10 +140,19 @@ import DSAPractice_Sources
 //solution.mergeTwoLists(node11, node21)
 
 // 3
-let solution = Solution_removeElements()
+//let solution = Solution_removeElements()
+//let node11 = ListNode(1)
+//let node12 = ListNode(2)
+//let node13 = ListNode(4)
+//node11.next = node12
+//node12.next = node13
+//solution.removeElements(node11, 2)
+
+// 4
+let solution = Solution_reverseList()
 let node11 = ListNode(1)
 let node12 = ListNode(2)
 let node13 = ListNode(4)
 node11.next = node12
 node12.next = node13
-solution.removeElements(node11, 2)
+solution.reverseList(node11)
