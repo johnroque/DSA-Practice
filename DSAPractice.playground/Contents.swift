@@ -179,9 +179,18 @@ import DSAPractice_Sources
 // End Linked List
 
 // MARK: Stack & Queues
-// MARK: isValidStack
-let solution = Solution_isValidStack()
-solution.isValid("()[]{}")
+// MARK: 1. isValidStack
+//let solution = Solution_isValidStack()
+//solution.isValid("()[]{}")
 
+// MARK: 2 Creating Queue
+let queue = MyQueue()
+queue.push(5)
+queue.push(1)
+queue.push(2)
+queue.push(3)
+queue.empty()
+queue.pop()
+queue.peek()
 
 // MARK: End Stack & Queues
