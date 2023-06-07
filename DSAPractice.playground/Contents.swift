@@ -158,20 +158,30 @@ import DSAPractice_Sources
 //solution.reverseList(node11)
 
 // 5
-let solution = Solution_deleteDuplicates()
-let node11 = ListNode(1)
-let node12 = ListNode(2)
-let node13 = ListNode(4)
-let node14 = ListNode(4)
-node11.next = node12
-node12.next = node13
-node13.next = node14
-solution.deleteDuplicatesRecursive(node11)
-let node111 = ListNode(1)
-let node122 = ListNode(2)
-let node133 = ListNode(4)
-let node144 = ListNode(4)
-node111.next = node122
-node122.next = node133
-node133.next = node144
-solution.deleteDuplicatesLoop(node111)
+//let solution = Solution_deleteDuplicates()
+//let node11 = ListNode(1)
+//let node12 = ListNode(2)
+//let node13 = ListNode(4)
+//let node14 = ListNode(4)
+//node11.next = node12
+//node12.next = node13
+//node13.next = node14
+//solution.deleteDuplicatesRecursive(node11)
+//let node111 = ListNode(1)
+//let node122 = ListNode(2)
+//let node133 = ListNode(4)
+//let node144 = ListNode(4)
+//node111.next = node122
+//node122.next = node133
+//node133.next = node144
+//solution.deleteDuplicatesLoop(node111)
+
+// End Linked List
+
+// MARK: Stack & Queues
+// MARK: isValidStack
+let solution = Solution_isValidStack()
+solution.isValid("()[]{}")
+
+
+// MARK: End Stack & Queues
