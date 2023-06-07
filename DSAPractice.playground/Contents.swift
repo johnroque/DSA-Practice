@@ -1,8 +1,9 @@
 import UIKit
 import DSAPractice_Sources
 
-//// Data Structure - Array
-////  Day 1
+// MARK: Start Array
+// MARK: Day 1
+// MARK: 1. containsDuplicate
 //let solutionDuplicate = SolutionContainsDuplicate()
 //let input1 = [1,2,3,1]
 //let input2 = [1,2,3,4]
@@ -20,17 +21,18 @@ import DSAPractice_Sources
 //solutionDuplicate.containsDuplicateBrute(input2)
 //solutionDuplicate.containsDuplicateBrute(input3)
 
-////  Day 1
+// MARK: 2. maxSubArray
 //let solution_maxSubArray = Solution_maxSubArray()
 //solution_maxSubArray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
 
-////  Day 2
+// MARK: Day 2
+// MARK: 1. twoSum
 //let solution_twoSum = Solution_twoSum()
 //
 //solution_twoSum.twoSumBrute([2,7,11,15], 9)
 //solution_twoSum.twoSumComple([3,2,4], 6)
 
-//// Day 2
+//MARK: 2. array merge
 //let solution_merge = Solution_merge()
 //var test = [1,2,3,0,0,0]
 //solution_merge.mergeLoop(&test, 3, [2,5,6], 3)
@@ -39,31 +41,30 @@ import DSAPractice_Sources
 //solution_merge.merge(&test, 3, [2,5,6], 3)
 //print(test)
 
-// Day 3
-// 1
+// MARK: Day 3
+// MARK: 1. insersect
 //let solution_intersect = Solution_intersect()
 //solution_intersect.intersectDict([1,2,2,1], [2,2])
 //solution_intersect.intersectDict([4,9,5], [9,4,9,8,4])
 
-// 2
+// MARK: 2. maxProfit
 //let solution_maxProfit = Solution_maxProfit()
 //solution_maxProfit.maxProfit([7,1,5,3,6,4])
 //solution_maxProfit.maxProfit_twoPointer([7,1,5,3,6,4])
 
-// Day 4
-
-// 1
+// MARK: Day 4
+// MARK: 1 Matrix Reshape
 //let solution = Solution_matrixReshape()
 //solution.matrixReshape([[1,2],[3,4]], 1, 4)
 //solution.matrixReshape([[1,2],[3,4]], 2, 4)
 
-// 2
+// MARK: 2 pascalTriangle
 //let solution = Solution_pascalTriangle()
 //solution.generate(5)
 //solution.generate(1)
 
-// Day 5
-// 1
+// MARK: Day 5
+// MARK: 1 is ValidSudoku
 //let solution = Solution_isValidSudoku()
 //solution.isValidSudoku([["5","3",".",".","7",".",".",".","."]
 //                        ,["6",".",".","1","9","5",".",".","."]
@@ -84,35 +85,36 @@ import DSAPractice_Sources
 //                        ,[".",".",".","4","1","9",".",".","5"]
 //                        ,[".",".",".",".","8",".",".","7","9"]])
 
-// 2
+// MARK: 2 search matrix
 //let solution = Solution_searchMatrix()
 //solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3)
 //solution.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
 
-// End
+// MARK: End Array
 
-// 1.
+// MARK: Start String
+// MARK: 1. firstUniqChar
 //let solution = Solution_firstUniqChar()
 //solution.firstUniqCharDict("leetcode")
 //solution.firstUniqCharDict("loveleetcode")
 //solution.firstUniqCharDict("aabb")
 
-// 2.
+// MARK: 2. ransomNote
 //let solution = Solution_ransomNote()
 //solution.canConstruct("a", "b")
 //solution.canConstruct("aa", "ab")
 //solution.canConstruct("aa", "aab")
 
 
-// 3.
+// MARK: 3. isAnagram
 //let solution = Solution_isAnagram()
 //solution.isAnagramDict("anagram", "nagaram")
 //solution.isAnagramDict("rat", "car")
 
-// End Strings
+// MARK: End Strings
 
-// Linked List
-// 1
+// MARK: Linked List
+// MARK: 1 hasCycle
 //let solution = Solution_hasCycle()
 //let fNode = ListNode(3)
 //let sNode = ListNode(2)
@@ -124,7 +126,7 @@ import DSAPractice_Sources
 //node4.next = sNode
 //solution.hasCycle(fNode)
 
-// 2
+// MARK: 2. merge two list
 //let solution = Solution_mergeTwoLists()
 //let node11 = ListNode(1)
 //let node12 = ListNode(2)
@@ -139,7 +141,7 @@ import DSAPractice_Sources
 //node22.next = node23
 //solution.mergeTwoLists(node11, node21)
 
-// 3
+// MARK: 3. removeElement
 //let solution = Solution_removeElements()
 //let node11 = ListNode(1)
 //let node12 = ListNode(2)
@@ -148,7 +150,7 @@ import DSAPractice_Sources
 //node12.next = node13
 //solution.removeElements(node11, 2)
 
-// 4
+// MARK: 4. reverseList
 //let solution = Solution_reverseList()
 //let node11 = ListNode(1)
 //let node12 = ListNode(2)
@@ -157,7 +159,7 @@ import DSAPractice_Sources
 //node12.next = node13
 //solution.reverseList(node11)
 
-// 5
+// MARK: 5. delete duplicates
 //let solution = Solution_deleteDuplicates()
 //let node11 = ListNode(1)
 //let node12 = ListNode(2)
@@ -176,7 +178,7 @@ import DSAPractice_Sources
 //node133.next = node144
 //solution.deleteDuplicatesLoop(node111)
 
-// End Linked List
+// MARK: End Linked List
 
 // MARK: Stack & Queues
 // MARK: 1. isValidStack
