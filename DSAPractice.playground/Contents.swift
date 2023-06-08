@@ -187,13 +187,21 @@ import DSAPractice_Sources
 //node2.left = node3
 //solution.preorderTraversal(node1)
 
-let solution = Solution_inorderTraversal()
+//let solution = Solution_inorderTraversal()
+//let node1 = TreeNode(1)
+//let node2 = TreeNode(2)
+//let node3 = TreeNode(3)
+//node1.right = node2
+//node2.left = node3
+//solution.inorderTraversal(node1)
+
+let solution = Solution_postorderTraversal()
 let node1 = TreeNode(1)
 let node2 = TreeNode(2)
 let node3 = TreeNode(3)
 node1.right = node2
 node2.left = node3
-solution.inorderTraversal(node1)
+solution.postorderTraversal(node1)
 
 // MARK: End Linked List
 
